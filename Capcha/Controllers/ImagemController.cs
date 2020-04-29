@@ -16,9 +16,9 @@ namespace Capcha.Controllers
         }
 
         
-        [Route("Texto")]
+        [Route("ExtrairTexto")]
         [HttpPost]
-        public IActionResult Texto(Arquivo arquivo)
+        public IActionResult ExtrairTexto(Arquivo arquivo)
         {
             try
             {
